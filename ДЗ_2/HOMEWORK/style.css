@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    font-family: 'Teddy Bear';
+}
+
+body {
+    background-color: rgba(216, 112, 147, 0.9);
+}
+
+h2 {
+    color: yellow;
+}
+
+a {
+    color: rgba(4, 148, 4, 0.918);
+}
+
+.big_text {
+    font-size: 2rem;
+    font-family: 'Teddy Bear';
+    color: purple;
+}
+
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('shrift/fonts/teddy_bear.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('shrift/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('shrift/fonts/teddy_bear.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('shrift/fonts/teddy_bear.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('shrift/fonts/teddy_bear.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('shrift/fonts/teddy_bear.svg#teddy_bear') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+.color_text {
+    color: rgb(246, 6, 6);
+}
+@font-face {
+	font-family: 'Kallisa';
+	src: url('shrift/fonts/kallisa.eot'); /* IE 9 Compatibility Mode */
+	src: url('shrift/fonts/kallisa.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('shrift/fonts/kallisa.woff2') format('woff2'), /* Super Modern Browsers */
+		url('shrift/fonts/kallisa.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('shrift/fonts/kallisa.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('shrift/fonts/kallisa.svg#kallisa') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.test_text {
+    font-size: 2rem;
+    font-family: 'Kallisa';
+    color: rgb(30, 7, 161);
+}

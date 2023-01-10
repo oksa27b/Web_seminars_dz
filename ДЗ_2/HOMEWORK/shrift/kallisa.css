@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Kallisa';
+	src: url('../fonts/kallisa.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/kallisa.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/kallisa.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/kallisa.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/kallisa.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/kallisa.svg#kallisa') format('svg'); /* Chrome < 4, Legacy iOS */
+}

@@ -1,0 +1,31 @@
+site.ru
+me <-------> server (nginx) <-------> index.html
+me <-------> server (nginx) <-------> css, js, img, fronts ...
+
+site.ru
+me <-------> server (nginx) <-------> php (собирает html) <------> db
+me <-------> server (nginx) <-------> css, js, img, fronts ...
+
+
+site.ru
+me <-------> server (nginx) <-------> index.html
+me <-------> server (nginx) <-------> css, js
+js <-------> server (nginx) <-------> php (возвращает данные) <------> db
+me <-------> server (nginx) <-------> css, js, img, fronts ...
+
+аутентификация - это ввод логина/пароля
+авторизация - проверка прав доступа
+
+Login/pass
+me <-------> server (nginx) <-------> php (создаст token) <------> db
+token:dfnldfg5d5d4g65d4g6d4f64f65
+token-restore: hjkh545dgdfnldfg5d5d4g65d4g6d4f64f65d5
+
+delite post
+me <-------> server (nginx) <-------> php <------> db
+
+
+
+
+
+123 cvb64b64bd64gdfg4d6g4dg4d4fgs54f6s4684 из пароля в хэш превращается, обратно нельзя 
